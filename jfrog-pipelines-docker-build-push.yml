@@ -54,7 +54,7 @@ pipelines:
         configuration:
           dockerFileLocation: .
           dockerFileName: Dockerfile
-          dockerImageName: dand-docker-test.jfrog.io/docker-local/alpine37
+          dockerImageName: dand-docker-test.jfrog.io/docker-test/alpine37
           dockerImageTag: ${run_number}
           inputResources:
             - name: repo_1_docker_build_push
