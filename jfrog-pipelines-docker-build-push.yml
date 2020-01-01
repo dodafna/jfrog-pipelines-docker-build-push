@@ -64,7 +64,7 @@ pipelines:
       - name: docker_push
         type: DockerPush
         configuration:
-          targetRepository: docker-local
+          targetRepository: docker-promote
           integrations:
             - name: demoArt
           inputSteps:
